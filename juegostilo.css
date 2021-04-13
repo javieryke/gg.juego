@@ -1,0 +1,42 @@
+ div{
+            background-color: palevioletred;
+            width: 415px;
+            height: auto;
+            text-align: center;
+            background-color:rgba(0,2,0);
+            margin:10px;
+            margin-left: 10px;
+            text-align: center;
+     border-radius: 100%;
+        }
+        img{
+            width: 400px;
+            height: 420px;
+            padding-top:1px;
+            margin-top:5px;
+            border-radius: 100%;
+            
+        }
+        button{
+            border-radius: 45px;
+            background-color: palevioletred;
+            color: blue;
+
+        }
+        body{
+            background:pink;
+        text-align: center;}
+        option{
+            color:darkturquoise;
+        }
+        select{
+            background-color: lightpink;
+            color: beige;
+            width: 20%;
+            font-family:inherit;
+            border-radius: 340%;
+        }
+        h1{
+            color: darkblue;
+            text-align: center;
+        }

@@ -1,0 +1,197 @@
+<!doctype>
+<html>
+<head>
+   <link rel="stylesheet" href="juegostilo.css">
+    <title>juego</title>
+</head>
+    <body>
+     <h1> ¿QUIENES SON LOS PERSONAJES?</h1>
+    <div>
+    <img src="yuri.jpg">
+    <select id="uno">
+        <option value="1">Jessica</option>
+        <option value="2">Sunny</option>
+        <option value="3">Tiffany</option>
+        <option value="4">Yuri</option>
+        <option value="5">Taeyeon</option>
+    </select>
+        
+    </div>
+    <div>
+    <img src="seo.jpg">
+    <select id="dos">
+        <option value="1">Yuri</option>
+        <option value="2">Hyoyeon</option>
+        <option value="3">Yonna</option>
+        <option value="4">Taeyeon</option>
+        <option value="5">Seohyun</option>
+    </select>
+        
+    </div>
+    <div>
+    <img src="sou.jpg">
+    <select id="tres">
+        <option value="1">Sooyoung</option>
+        <option value="2">Seohyun</option>
+        <option value="3">Hyoyeon</option>
+        <option value="4">Taeyeon</option>
+        <option value="5">Tiffany</option>
+    </select>    
+    </div>
+    <div>
+    <img src="suny.jpg">
+    <select id="cuatro">
+        <option value="1">Yoona</option>
+        <option value="2">Tiffany</option>
+        <option value="3">Yuri</option>
+        <option value="4">Sunny</option>
+        <option value="5">Sooyoung</option>
+    </select>
+       
+    </div>
+    <div>
+    <img src="tae.jpg">
+    <select id="cinco">
+        <option value="1">Yoona</option>
+        <option value="2">Taeyeon</option>
+        <option value="3">Tiffany</option>
+        <option value="4">Sooyoung</option>
+        <option value="5">Sunny</option>
+    </select>
+        
+    </div>
+    <div>
+    <img src="tif.jpg">
+    <select id="seis">
+        <option value="1">Hyoyeon</option>
+        <option value="2">Sunny</option>
+        <option value="3">Tiffany</option>
+        <option value="4">Seohyun</option>
+        <option value="5">Sooyoung</option>
+    </select> 
+    </div> <div>
+    <img src="hyo.jpg">
+    <select id="siete">
+        <option value="1">Yoona</option>
+        <option value="2">Taeyeon</option>
+        <option value="3">Hyoyeon</option>
+        <option value="4">Seohyun</option>
+        <option value="5">Yuri</option>
+    </select>
+       
+    </div> <div>
+    <img src="jesi.jpg">
+    <select id="ocho">
+        <option value="1">Sooyoung</option>
+        <option value="2">Sunny</option>
+        <option value="3">Hyoyeon</option>
+        <option value="4">Jessica</option>
+        <option value="5">Taeyeon</option>
+    </select>
+       
+    </div> <div>
+    <img src="yona.jpg">
+    <select id="nueve">
+        <option value="1">Jessica</option>
+        <option value="2">Sooyoung</option>
+        <option value="3">Tiffany</option>
+        <option value="4">Sunny</option>
+        <option value="5">Yoona</option>
+    </select>
+       
+    </div>
+    
+        <button id="calc">ENVIAR</button> 
+        
+        <script>
+    var btn=document.getElementById('calc');
+            btn.addEventListener('click',function (){
+        var uno=document.getElementById('uno').value;
+        var dos=document.getElementById('dos').value;
+        var tres=document.getElementById('tres').value;
+        var cuatro=document.getElementById('cuatro').value;
+        var cinco=document.getElementById('cinco').value;
+        var seis=document.getElementById('seis').value;
+        var siete=document.getElementById('siete').value;
+        var ocho=document.getElementById('ocho').value;
+        var nueve=document.getElementById('nueve').value;
+        var c=0;
+            if  (uno==4){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='yuri.jpg'> lo siento ella es: Yuri <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                 c=c+1;
+            }
+            if (dos==5){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='seo.jpg'> lo siento el es: Seohyun <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>")
+                        c=c+1;
+                }
+            if(tres==1){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='gaston.png'>lo siento el es: Sooyoung <a href='juego.html' style='color:green;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }
+            
+            if(cuatro==4){
+               document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='suny.jpg'> lo siento ella es: Sunny <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }
+            
+            if(cinco==2){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='tae.jpg'> lo siento el es: Taeyeon <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }
+            
+            if(seis==3){
+               document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='tif.jpg'>lo siento el es: Tiffany <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }
+                if(siete==3){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='hyo.jpg'>lo siento el es: Hyoyeon <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }
+        if(ocho==4){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='jesi.jpg'>lo siento el es: Jessica <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }
+        if(nueve==5){
+                document.write("<div style='heigth:200px;'><center style='background-color:pink; color:aqua; font-family:cooper black;'>respuesta correcta...lo lograste!!!!!</center></div><br><br>");
+                 c=c+1;
+            }
+            else{
+                document.write("<div style='background-color:pink;'><center style='color:red; font-family:forte;'><img src='yona.jpg'>lo siento el es: Yoona <a href='juego.html' style='color:blue;'>suerte a la proxima(=^.^=)</a></center></div><br><br>");
+                c=c+1;
+            }});
+        
+    </script>
+    </body>
+</html>
